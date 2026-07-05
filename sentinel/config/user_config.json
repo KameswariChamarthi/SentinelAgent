@@ -1,0 +1,39 @@
+{
+  "scan_interval_minutes": 30,
+  "storage_threshold_gb": 20.0,
+  "poll_interval_seconds": 15,
+  "theme": "light",
+  "auto_start_on_windows": false,
+  "notifications": {
+    "storage_low": true,
+    "scan_completed": true,
+    "permission_required": true,
+    "cleanup_successful": true
+  },
+  "enabled_categories": [
+    "windows_temp",
+    "user_temp",
+    "recycle_bin",
+    "thumbnail_cache",
+    "crash_dumps",
+    "browser_cache",
+    "windows_update_leftovers",
+    "delivery_optimization_cache",
+    "prefetch",
+    "pip_cache",
+    "npm_cache",
+    "gradle_cache",
+    "maven_cache",
+    "vscode_cache",
+    "old_downloads",
+    "old_zip_iso",
+    "node_modules",
+    "python_venvs"
+  ],
+  "ignore_folders": [],
+  "always_scan_folders": [],
+  "node_modules_search_roots": [],
+  "old_downloads_threshold_days": 90,
+  "old_zip_iso_threshold_days": 60,
+  "unused_project_threshold_days": 45
+}

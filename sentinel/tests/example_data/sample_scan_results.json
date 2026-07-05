@@ -1,0 +1,42 @@
+[
+  {
+    "category": "browser_cache",
+    "display_name": "Chrome Cache",
+    "paths": ["C:\\Users\\Example\\AppData\\Local\\Google\\Chrome\\User Data\\Default\\Cache"],
+    "size_bytes": 4509715660,
+    "confidence": "high_confidence_safe",
+    "file_count": 8213,
+    "admin_required": false,
+    "notes": ""
+  },
+  {
+    "category": "windows_temp",
+    "display_name": "Windows Temp",
+    "paths": ["C:\\Windows\\Temp"],
+    "size_bytes": 4080218931,
+    "confidence": "high_confidence_safe",
+    "file_count": 1502,
+    "admin_required": true,
+    "notes": "System-wide temp files, generally safe once processes are closed."
+  },
+  {
+    "category": "recycle_bin",
+    "display_name": "Recycle Bin",
+    "paths": ["C:\\$Recycle.Bin"],
+    "size_bytes": 9234567890,
+    "confidence": "high_confidence_safe",
+    "file_count": 342,
+    "admin_required": false,
+    "notes": ""
+  },
+  {
+    "category": "old_downloads",
+    "display_name": "Old Downloads (>90d untouched)",
+    "paths": ["C:\\Users\\Example\\Downloads\\old_installer.exe"],
+    "size_bytes": 734003200,
+    "confidence": "needs_confirmation",
+    "file_count": 12,
+    "admin_required": false,
+    "notes": "Files in Downloads untouched for a long time. Review before approving."
+  }
+]
